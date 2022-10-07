@@ -1,0 +1,2 @@
+gcc -Os -o fbasic -DUNALIGNED_DOUBLES=1 fbasic.c -lcurses -lm -lgc
+strip fbasic
